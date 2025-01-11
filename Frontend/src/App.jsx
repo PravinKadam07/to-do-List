@@ -1,17 +1,14 @@
-import "./App.css";
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import React from 'react';
+import TaskList from './components/TaskList';
+import './index.css';
 
-import Home from "./Home";
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-        </Routes>
-      </BrowserRouter>
+    <div>
+      <TaskList />
     </div>
   );
-}
+};
 
 export default App;
+

@@ -1,0 +1,38 @@
+.app {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  .task-form {
+    margin-bottom: 20px;
+  }
+  
+  .task-form input {
+    padding: 10px;
+    width: 70%;
+    margin-right: 10px;
+  }
+  
+  .task-form button {
+    padding: 10px;
+  }
+  
+  .task-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task-list li {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+  }
+  
+  .task-list li:hover {
+    background-color: #f0f0f0;
+  }
+  
